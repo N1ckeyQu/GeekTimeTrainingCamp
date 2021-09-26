@@ -26,7 +26,7 @@ public class XlassClassLoader extends ClassLoader {
         byte[] readAllBytes = new byte[0];
         try {
             //获取文件中的字节流
-            readAllBytes = Files.readAllBytes(new File("D:\\project\\GeekTimeTrainingCamp\\week01\\src\\homework\\Hello.xlass").toPath());
+            readAllBytes = Files.readAllBytes(new File("week01/src/homework/Hello.xlass").toPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
